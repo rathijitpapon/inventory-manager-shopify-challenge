@@ -43,3 +43,6 @@
 
     # Access http://localhost:8000/
    ```
+2. <b>Heroku Deployment</b>
+   ```
+    # Access https://inventorymanagershopify.herokuapp.com/
