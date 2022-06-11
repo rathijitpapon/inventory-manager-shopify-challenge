@@ -1,0 +1,129 @@
+.app-container {
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.app-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+  padding: 10px;
+}
+
+.content-header-item {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  background-color: rgb(220, 215, 215);
+  color: #676565;
+  width: 250px;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.content-header-item-focused {
+  background-color: #837d7d;
+  color: #fff;
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  padding: 10px;
+}
+
+.add-button {
+  background-color: #370159;
+  color: #fff;
+  font-weight: 600;
+  width: 160px;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.table-item {
+  text-align: center;
+}
+
+.update-item {
+  background-color: #2c0346!important;
+  color: #fff!important;
+  font-weight: 600;
+  width: 140px;
+  text-align: center;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.add-modal-body {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 20%;
+  right: 20%;
+  background: rgb(248, 248, 250);
+  padding: 30px 40px;
+  overflow: auto;
+  border-radius: 10px;
+  border: none;
+}
+
+.add-modal-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+  padding: 10px;
+}
+
+.add-modal-content-item {
+  margin: 10px 0px;
+}
+
+.add-modal-content-item-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-modal-content-item-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.add-modal-content-item-button {
+  background-color: #370159;
+  color: #fff;
+  font-weight: 600;
+  width: 120px;
+  text-align: center;
+  padding: 10px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 15px;
+}
